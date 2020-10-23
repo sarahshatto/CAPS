@@ -57,7 +57,7 @@ capsConnection.on('pickup', (payload) => {
 // Driver function takes in payload, sends out a console log, and sends via .emit the "in-transit" event
 function driverSocket(payload){
   let orderid = payload.orderID; 
-  console.log('picking up ', orderid); // log pickup
+  console.log('picking up', orderid); // log pickup
   capsConnection.emit('in-transit', payload); // emit in transit event 
 }
 

@@ -41,8 +41,8 @@ Vendor Application
     - Connects to the CAPS server as a socket.io client to the caps namespace
     - Join a room named for your store
         - Emit a join event to the caps namespace connection, with the payload being your store code
-    - Every .5 seconds, simulate a new customer order
-        - Create a payload object with your store name, order id, customer name, address
+    - Every 5 seconds, simulate a new customer order
+        - Create a payload/order object with your store name, order id, customer name, address
         - Emit that message to the CAPS server with an event called pickup
     - Listen for the delivered event coming in from the CAPS server
         - Log “thank you for delivering payload.id” to the console
