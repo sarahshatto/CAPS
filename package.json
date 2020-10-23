@@ -1,0 +1,24 @@
+{
+  "name": "caps",
+  "version": "1.0.0",
+  "description": "CAPS application for Code 401",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahshatto/CAPS.git"
+  },
+  "author": "Sarah Shatto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahshatto/CAPS/issues"
+  },
+  "homepage": "https://github.com/sarahshatto/CAPS#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "faker": "^5.1.0",
+    "socket.io": "^2.3.0"
+  }
+}
